@@ -1,4 +1,4 @@
-import { Connector, type ConnectorEvent } from "../src/index";
+import { Connector } from "../src/index";
 import readline from "readline";
 
 type Data = {
