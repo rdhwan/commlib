@@ -1,4 +1,4 @@
-# commlib - a MQTT Connector Library
+# commlib - a MQTT Connector Library for CE739 - Mobile Pervasive Computing
 
 This library provides a connector for sending and receiving messages using MQTT. It leverages the `mqtt` and `eventemitter3` libraries to handle MQTT communication and event handling.
 
