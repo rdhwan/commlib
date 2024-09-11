@@ -23,6 +23,14 @@ export class ConnectorError extends Error {
   }
 }
 
+/**
+ * Represents a connector for sending and receiving messages using MQTT.
+ *
+ * @typeparam T - The type of data to be sent and received.
+ *
+ * @fires message - Emitted when a message is received.
+ * @fires broadcast - Emitted when a broadcast message is received.
+ */
 export class Connector<T> extends EventEmitter<{
   message: [ConnectorEvent<T>];
   broadcast: [ConnectorEvent<T>];
