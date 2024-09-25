@@ -103,25 +103,6 @@ try {
 }
 ```
 
-GitHub Copilot
-Sure, here's a README markdown document for your library:
-
-Usage
-Importing the Library
-First, import the necessary modules and types:
-
-Creating a Connector
-To create a connector, instantiate the Connector class with the required options:
-
-Listening for Events
-You can listen for message and broadcast events using the on method:
-
-Sending Messages
-To send a message, use the send method:
-
-Error Handling
-The library provides a custom ConnectorError class for handling errors:
-
 # API
 
 ### Constructor
